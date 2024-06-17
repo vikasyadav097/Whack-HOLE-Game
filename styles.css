@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f8f5f5;
+  }
+  
+  .game {
+    text-align: center;
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-gap: 10px;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .hole {
+    width: 100px;
+    height: 100px;
+    background-color: #0c0c0c;
+    border-radius: 50%;
+    position: relative;
+  }
+  
+  .mole {
+    width: 80px;
+    height: 80px;
+    background-color: #f31717;
+    border-radius: 50%;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    display: none;
+    cursor: pointer;
+  }
+  
+  button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
